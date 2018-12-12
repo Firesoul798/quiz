@@ -12,3 +12,20 @@ $(document).ready(function() {
     });
 
 });
+function question1(answer1){
+    if(answer1==="Lion"){
+        return 7;
+    }else if(answer1==="Tiger"){
+        return 5;
+    }else if(answer1==="Bear"){
+        return 3;
+    }else if(answer1==="Dog"){
+        return 4;
+    }else {
+        return 0;
+    }
+    
+}
+function question2(answer2){
+    
+}
